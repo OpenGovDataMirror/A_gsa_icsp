@@ -1,0 +1,286 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+##########################################################################################
+# Be sure to edit the values below
+##########################################################################################
+
+title: Interagency Council on Statistical Policy
+email: contact@example.gov
+description: >- # this means to ignore newlines until "baseurl:"
+  Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://example.gov" # the base hostname & protocol for your site, e.g. https://example.com.
+  # Required to support the jekyll-sitemap plugin below.
+  # Uncomment the url line when ready to push to production. If using different branches for multiple
+  # custom domains, edit this url parameter in the relevant branch to match the relevant custom domain.
+
+# Twitter handle. Only the handle, not the URL.
+twitter: 18F
+
+#################################################################
+#
+# Digital Analytics Program (DAP) configuration
+#
+# USAID   - Agency for International Development
+# USDA    - Department of Agriculture
+# DOC     - Department of Commerce
+# DOD     - Department of Defense
+# ED      - Department of Education
+# DOE     - Department of Energy
+# HHS     - Department of Health and Human Services
+# DHS     - Department of Homeland Security
+# HUD     - Department of Housing and Urban Development
+# DOJ     - Department of Justice
+# DOL     - Department of Labor
+# DOS     - Department of State
+# DOI     - Department of the Interior
+# TREAS   - Department of the Treasury
+# DOT     - Department of Transportation
+# VA      - Department of Veterans Affairs
+# EPA     - Environmental Protection Agency
+# EOP     - Executive Office of the President
+# GSA     - General Services Administration
+# NASA    - National Aeronautics and Space Administration
+# NARA    - National Archives and Records Administration
+# NSF     - National Science Foundation
+# NRC     - Nuclear Regulatory Commission
+# OPM     - Office of Personnel Management
+# USPS    - Postal Service
+# SBA     - Small Business Administration
+# SSA     - Social Security Administration
+#
+#################################################################
+dap:
+  # agency: your-agency
+
+  # Optional
+  # subagency: your-subagency
+
+# Configuration for Google Analytics
+ga:
+  # ua: your-ua
+
+# Site Navigation
+primary_navigation:
+  - name: Home
+    url: /
+  - name: About Us
+    url: /about/
+  - name: Strategic Priorities
+    url: /strategic-priorities/
+  - name: ICSP Subcommittees
+    url: /subcommittees/
+  - name: Policies
+    url: /policies/
+  - name: Products
+    url: /products/
+  - name: Announcements
+    url: /announcements/
+
+about_nav:
+  - name: About Us
+    url: /about/
+  - name: Office of the Chief Statistician
+    url: /about/office-chief-statistician/
+  - name: Interagency Council on Statistical Policy
+    url: /about/council-members/
+  - name: Federal Statistical System
+    url: /about/federal-statistical-system/
+    
+strategic_priorities_nav:
+  - name: Strategic Priorities
+    url: /strategic-priorities/
+  - name: Data Quality
+    url: /strategic-priorities/data-quality/
+  - name: Autonomy and Objectivity
+    url: /strategic-priorities/autonomy-objectivity/
+  - name: Blended Data
+    url: /strategic-priorities/blended-data/
+  - name: Title III Regulations
+    url: /strategic-priorities/title-iii-regulations/
+  - name: Statistical Office Role
+    url: /strategic-priorities/statistical-office-role/
+  - name: Cross-Council Collaborations
+    url: /strategic-priorities/cross-council-collaboration/
+  - name: Staff Development
+    url: /strategic-priorities/staff-development/
+  - name: Data Protection
+    url: /strategic-priorities/data-protection/
+
+subcommittees_nav:
+  - name: ICSP Subcommittees
+    url: /icsp-subcommittees/
+  - name: American Community Survey
+    url: /icsp-subcommittees/american-committee-survey/
+  - name: Standard Application Process
+    url: /icsp-subcommittees/standard-application-process/
+
+policies_nav:
+  - name: Policies
+    url: /policies/
+  - name: Legislation and Related Policy Guidance
+    url: /policies/legislation-policy-guidance/
+  - name: Memorandums Issued to the Federal Statistical System Agencies
+    url: /policies/memorandums/
+  - name: Statistical Policy Directives
+    url: /policies/statistical-policy-directives/
+  - name: Related Links
+    url: /policies/related-links/
+    
+products_nav:
+  - name: Products
+    url: /products/
+  - name: Office of Management and Budget
+    url: /products/omb/
+  - name: OMB's Statistical Standards & Programs
+    url: /products/omb-statistical-standards-programs/
+  - name: Interagency Council on Statistical Policy
+    url: /products/icsp/
+  - name: Related Links
+    url: /products/related-links/
+
+announcements_nav:
+  - name: Announcements
+    url: /announcements/
+  - name: Community News
+    url: /announcements/
+
+# Search.gov configuration
+#
+# 1. Create an account with Search.gov https://search.usa.gov/signup
+# 2. Add a new site.
+# 3. Add your site/affiliate name here.
+searchgov:
+
+  # You should not change this.
+  endpoint: https://search.usa.gov
+
+  # replace this with your search.gov account
+  affiliate: federalist-uswds-example
+
+  # replace with your access key
+  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
+
+  # this renders the results within the page instead of sending to user to search.gov
+  inline: true
+
+##########################################################################################
+# The values below here are more advanced and should only be
+# changed if you know what they do
+##########################################################################################
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  members:
+    output: false
+  news:
+    output: false
+  agencies:
+    output: false
+
+permalink: pretty
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-redirect-from
+  - jekyll-sitemap # See additional instructions for url parameter above.
+  - jekyll-seo-tag
+
+############################################################
+# Site configuration for the Jekyll 3 Pagination Gem
+# The values here represent the defaults if nothing is set
+pagination:
+  # Site-wide kill switch, disabled here it doesn't run at all
+  enabled: true
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: false
+  # The default document collection to paginate if nothing is specified ('posts' is default)
+  collection: "posts"
+  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
+  per_page: 3
+  # The permalink structure for the paginated pages (this can be any level deep)
+  permalink: "/page/:num/" # Pages are index.html inside this folder (default)
+  #permalink: '/page/:num.html' # Pages are simple html files
+  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
+  # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
+  title: ":title - page :num"
+  # Limit how many pagenated pages to create (default: 0, means all)
+  limit: 0
+  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
+  sort_field: "date"
+  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
+  sort_reverse: true
+  # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
+  category: "posts"
+  # Optional, the default tag to use, omit to disable
+  tag: ""
+  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts,
+  # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
+  locale: ""
+  # Optional,omit or set both before and after to zero to disable.
+  # Controls how the pagination trail for the paginated pages look like.
+  trail:
+    before: 2
+    after: 2
+  # Optional, the default file extension for generated pages (e.g html, json, xml).
+  # Internally this is set to html by default
+  extension: html
+  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
+  # Without file extension
+  indexpage: "index.html"
+
+exclude:
+  - package.json
+  - package-lock.json
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE.md
+  - degit.json
+  - vendor
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+
+assets:
+  digest: false
+  autoprefixer:
+    browsers:
+      - "> 2%"
+      - "last 2 versions"
+      - "IE 11"
+      - "not dead"
+  compression: true
+  sources:
+    - node_modules/uswds/dist
+    - node_modules/uswds/dist/img
+    - node_modules/uswds/dist/js
+    - node_modules/uswds/dist/scss
+    - node_modules/netlify-cms/dist
+    - _assets/img
+    - _assets/js
+    - _assets/css
+  defaults:
+    js:  { integrity: false }
+    css: { integrity: false }
+    img: { integrity: false }
+  features:
+    integrity: false

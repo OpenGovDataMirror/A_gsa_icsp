@@ -1,0 +1,29 @@
+---
+title: Strategic Priorities
+permalink: /strategic-priorities/
+section: strategic_priorities
+layout: page
+---
+<h4 class="bg-primary text-white radius-lg padding-1 font-sans-xs">Promoting data quality</h4>
+<p> A rigorous analysis of the quality of data is fundamental to all statistical work, and has been a key feature of statistics since its creation. Today, the extraordinary variety of data - from administrative and survey data to high frequency transactional and private sector data - increase the importance of determining the suitability of data for statistical purposes and for the production of official statistical series. ICSP supports this work in the agencies and through our sponsorship (with OMB) of the Federal Committee on Statistical Methodology (FCSM).</p>
+
+<h4 class="bg-primary text-white radius-lg padding-1 font-sans-xs">Autonomy and objectivity best practices</h4>
+<p>The utility of official statistics is vastly enhanced if data users perceive and trust that these statistics have been produced without influence from private or partisan considerations. Hand-in-hand with this perception of autonomy is the enhancement to public trust that stems from understanding that additions, changes, and enhancements to official statistics are rooted in objective, professional statistical methodology and science. ICSP advances this goal through its work on new regulations based on the Evidence Act's codification of Statistical Policy Directive 1, the "trust directive."</p>
+
+<h4 class="bg-primary text-white radius-lg padding-1 font-sans-xs">Enabling blended/high frequency data</h4>
+<p>The explosion in the volume of public and private data combined with equally impressive advances in computational and data storage technologies provide statistical agencies with new opportunities to combine data from diverse sources to create new statistical products. However, blended data, particularly when those data are of higher and higher frequency raise large challenges for statistical agencies. ICSP is leading the effort to sort through these challenges, provide guidance and standards to the agencies, and equip the US statistical system with the tools to responsibly exploit this new capability.
+
+<h4 class="bg-primary text-white radius-lg padding-1 font-sans-xs">Evidence Act Title III regulations and processes</h4>
+<p>The Evidence Act identified the importance of expanding access to CIPSEA-covered data for policymaking decisions, while at the same time ensuring the privacy of data providers and the confidentiality of their data. To address this dual mandate, the Evidence Act tasks CIPSEA agencies with conducting comprehensive risk assessments of their data to determine sensitivity levels and corresponding levels of access. This concept of "tiered access," is to be based on standards to be issued by OMB.</p>
+
+<h4 class="bg-primary text-white radius-lg padding-1 font-sans-xs">Establishing agency Statistical Official role</h4>
+<p>While the Evidence Act created the new role of Chief Statistical Official in each Department, implementing that role has proved challenging. Some Departments already had well established statistical agencies, others had statistical offices that had yet to establish their autonomy from partisan influence, while still others were just standing up statistical operations. ICSP provides guidance for all 26 of its members on standard statistical practices and methods as well as business operations and budgetary controls appropriate for executing statistical missions under the Statistical Policy Directives, the Evidence Act, and other relevant federal laws and regulations.</p>
+
+<h4 class="bg-primary text-white radius-lg padding-1 font-sans-xs">Collaborating with Chief Data Officers and Chief Evaluation Officers</h4>
+<p> While the ICSP pre-dates the Evidence Act, not so the Chief Data Officers Council (CDOC) and the Chief Evaluation Officers Council (EOC). These new entities execute key elements of the Act's mission, and each has done a brilliant job of launching their own projects and missions. Cooperation between the three councils is crucial to attaining the vision of the Act: that policies would one day be based, where possible, on evidence developed according to scientific standards and through widely transparent processes. ICSP will find as many ways as possible to support the CDOC and EOC and to advance those projects that overlap with the mission and projects of ICSP.</p>
+
+<h4 class="bg-primary text-white radius-lg padding-1 font-sans-xs">Developing staff data skills through employee engagement, the ICSP mentoring program, and data science initiatives</h4>
+<p>ICSP supports the growth of the statistical system's most important asset: the men and women who work in the statistical agencies. While each agency has its own commitment to deepening human capital, ICSP offers specialized support through educational programs, one-on-one mentoring, and efforts to discover and develop talented individuals with an interest in data science subject matter.</p>
+
+<h4 class="bg-primary text-white radius-lg padding-1 font-sans-xs">Mitigating re-identification risk and the protection of data</h4>
+<p>Public trust in the statistical system is central to the system's success. Without the voluntary participation of survey respondents and the reliable compliance of individuals and businesses in completing required data forms, the statistical system would be severely hampered and our statistics open to dispute. ICSP is taking a leading role in exploring ways to protect respondent data from unauthorized identification by any number of means, including direct data breaches and matching of multiple datasets. In addition, ICSP has tasked the FCSM with updating existing data protection protocols and expanding upon a toolkit for agencies to use to support their data protection activities.</p>

@@ -1,0 +1,20 @@
+
+{% if include.menu %}
+  {% case include.menu %}
+    {% when "about_nav" %}{% assign nav = site.about_nav %}
+    {% when "strategic_priorities_nav" %}{% assign nav = site.strategic_priorities_nav %}
+    {% when "policies_nav" %}{% assign nav = site.policies_nav %}
+    {% when "products_nav" %}{% assign nav = site.products_nav %}
+    {% when "subcommittees_nav %}{% assign nav = site.subcomittees_nav %}
+    {% when "announcements_nav" %}{% assign nav = site.announcements_nav %}
+  {% endcase %}
+<aside id="sidenav" class="grid-col-12 usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
+  <nav role="navigation" aria-label="Side navigation">
+    <ul class="usa-sidenav" role="menu">
+    {% for nav_item in nav %}
+      {% include navitem.html nav_item = nav_item %}
+    {% endfor %}
+    </ul>
+  </nav>
+</aside>
+{% endif %}
